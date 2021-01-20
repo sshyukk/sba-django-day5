@@ -1,0 +1,14 @@
+<h1>회원등록</h1>
+<h1>I am sshyukk!!</h2>
+<img src="http://118.67.135.162:8000/static/a.jpg" />
+<link rel="stylesheet" href="/static/style.css">
+{{ res }}
+<h1>Hee</h1>
+<form method='POST' action='/signup'>
+	{% csrf_token %}
+	username:  <input type="text" name="username" />
+	email: <input type="text" name="email" />
+	<input type="submit" />
+</form>
+
+
